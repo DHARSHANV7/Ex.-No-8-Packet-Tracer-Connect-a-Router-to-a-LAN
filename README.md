@@ -1,5 +1,5 @@
 # Ex. No: 8   Packet Tracer: Connect a Router to a LAN
-# Date: ___________
+# Date: 26/09/2025
 ________________________________________<br>
 # Objective
 Configure and verify router LAN/WAN interfaces in Cisco Packet Tracer and test end-to-end connectivity.<br>
@@ -112,9 +112,23 @@ ________________________________________<br>
 ________________________________________<br>
 # Output (Attach Screenshots)
 •	show ip interface brief on R1 and R2 (after configuration)<br>
+<img width="3199" height="1799" alt="image" src="https://github.com/user-attachments/assets/cbb052da-203c-46c0-98fe-770ecadba33b" />
+
+<img width="3199" height="1799" alt="image" src="https://github.com/user-attachments/assets/83fa0f09-3a0a-423b-9433-55e2a7fb9232" />
+
 •	show ip route on R1 and R2<br>
+<img width="3199" height="1799" alt="image" src="https://github.com/user-attachments/assets/6555f5fd-160b-4434-af88-d29090938021" />
+
+<img width="3199" height="1799" alt="image" src="https://github.com/user-attachments/assets/83fa0f09-3a0a-423b-9433-55e2a7fb9232" />
+
 •	Successful ping PC1 → PC4; R2 → PC2<br>
+<img width="3199" height="1799" alt="image" src="https://github.com/user-attachments/assets/1823033a-d49d-4f2f-aa51-dddfcfda0428" />
+
 •	Interface up messages after no shutdown on each link <br>
+<img width="3199" height="1799" alt="image" src="https://github.com/user-attachments/assets/c9341c77-a3da-46eb-a05b-dc423f086f87" />
+<img width="3199" height="1799" alt="image" src="https://github.com/user-attachments/assets/523cb0ac-e8ec-4a84-bcfd-5f560aae1dfd" />
+<img width="3199" height="1799" alt="image" src="https://github.com/user-attachments/assets/1fb08618-489f-4fa8-aecb-d7bfcb1dd018" />
+
 ________________________________________<br>
 # Result
 R1 and R2 were configured with correct IPv4 addresses and interface descriptions, links were brought up, routing tables showed connected networks, and end-to-end connectivity between PCs across the WAN link was verified using pings. The configurations were saved to NVRAM for persistence.<br>
